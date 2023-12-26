@@ -131,7 +131,8 @@ main > #hp {
     left: 5px;
     background-image: linear-gradient(to right, #6bd364, #ffffff7c);
     position: relative;
-    width: 420px;
+    max-width: 420px;
+    min-width: 200px;
 }
 
 main > h2 {
@@ -139,8 +140,8 @@ main > h2 {
     top: 10px;
     left: 5px;
     background-image: linear-gradient(to right, #6bd364,transparent);
-    position: relative;
-    width: 420px;
+    max-width: 420px;
+    min-width: 200px;
 }
 
 p {
