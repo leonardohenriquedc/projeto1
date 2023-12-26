@@ -26,7 +26,7 @@ header, main {
 }
 main{
     margin: auto;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 900px;
     padding:10px;
 }
