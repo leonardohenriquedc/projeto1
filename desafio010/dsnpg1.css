@@ -98,10 +98,12 @@ header > #cbc2 {
 nav {
     background-color: #183117;
     width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
-nav > .menus {
+nav  .menus {
     font-weight: bold;
-    display: inline-block;
     color: white;
     padding: 20px;
     border-radius: 5px;
@@ -109,7 +111,7 @@ nav > .menus {
     transition-duration: 0.4s;
 }
 
-nav > .menus:hover {
+nav  .menus:hover {
     background-color: #224220;
     color: rgb(13, 32, 9);
     font-weight: bolder;
@@ -219,4 +221,32 @@ footer p {
     min-width: 200px;
 }*/
 
+#menu-hbm{
+    display: grid;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
+#menu-hbm .line{
+   
+    height: 5px;
+    width: 40px;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        display: grid;
+        justify-content: center;
+    }
+
+    nav > a {
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
