@@ -102,7 +102,7 @@ nav {
     justify-content: center;
 
 }
-nav  .menus {
+.menus {
     font-weight: bold;
     color: white;
     padding: 20px;
@@ -111,10 +111,20 @@ nav  .menus {
     transition-duration: 0.4s;
 }
 
-nav  .menus:hover {
+.menus:hover {
     background-color: #224220;
     color: rgb(13, 32, 9);
     font-weight: bolder;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav > ul > li{
+    list-style: none;
+    padding: 20px;
+
 }
 
 main > h1,h2 {
@@ -239,7 +249,7 @@ footer p {
 }
 
 @media screen and (max-width: 600px){
-    nav{
+    nav ul{
         display: grid;
         justify-content: center;
     }
