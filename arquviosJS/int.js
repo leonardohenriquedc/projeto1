@@ -17,15 +17,15 @@ function click(){
 
 
 function rs(){
-    if(window.innerWidth <= '600'){
-        navmb.style.display = 'grid'
-    }
-    else if(window.innerWidth >= '600'){
+    if(window.innerWidth > '600'){
         navmb.style.display = 'none'
+    }
+    else{
+        navmb.style.display = 'grid'
     }
     console.log(navmb.style.display)
 }
 
-window.addEventListener('load', rs)
+window.addEventListener('resize', rs)
 
 navmb.addEventListener('click', click)

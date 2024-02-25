@@ -93,6 +93,7 @@ header > #cbc2 {
     max-width: 600px;
     padding-top: 20px;
     text-shadow: 4px 2px 9px black;
+    font-size: 1rem;
 }
 
 nav {
